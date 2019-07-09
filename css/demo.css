@@ -1,0 +1,43 @@
+ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+.tab{
+	width: 300px;
+}
+.tab a{
+	text-decoration: none;
+	color: #333;
+}
+.tab-nav{
+	height: 30px;
+	line-height: 30px;
+}
+.tab-nav li{
+	float: left;
+	background: #ccc;
+}
+.tab-nav li a{
+	display: block;
+	padding: 0 10px;
+	height: 100%;
+}
+.tab-nav li.active{
+	background: #f2f2f2;
+}
+.tab-content{
+	height: 200px;
+	position: relative;
+}
+.tab-content .content-item{
+	position: absolute;
+	height: 100%;
+	box-sizing:border-box;
+	display: none;
+}
+.tab-content .content-item.current{
+	display: block;
+}
